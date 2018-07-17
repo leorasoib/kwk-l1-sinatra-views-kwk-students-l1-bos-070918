@@ -8,7 +8,5 @@ configure do
 	get '/' do
 		erb: :index
 	end
-get '/info' do
-  "Testing the Info Page"
-end 
+ 
 end
