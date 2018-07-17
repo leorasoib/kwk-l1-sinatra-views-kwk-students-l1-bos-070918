@@ -9,6 +9,6 @@ end
 		erb :index
 	end
  get '/info' do
-   "Testing the page"
+   erb :info
  end 
 end
