@@ -10,4 +10,5 @@ configure do
 	end
 get '/info' do
   "Testing the Info Page"
+end 
 end
