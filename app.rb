@@ -6,6 +6,6 @@ configure do
   set: :public_dir, "public"
   
 	get '/' do
-		
+		erb: :index
 	end
 end
